@@ -1,3 +1,18 @@
-.testing {
-  width: percentage(5/7);
+@import "vars";
+@import "mixins";
+@import "fonts";
+
+body {
+	font-family:'Graphik';
+}
+.section-padding {
+	padding: 0 10px;
+}
+.nav {
+	display: block;
+}
+@include media(sm){
+	.section-padding {
+		padding: 0 50px;
+	}
 }

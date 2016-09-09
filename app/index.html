@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/vendor/slick/slick.css"/>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/sections/main-nav.css">
   <!--endbuild-->
 </head>
 
@@ -22,17 +23,46 @@
   <div class="container-fluid">
     <!--Main Nav-->
     <div class="main-nav">
-      <nav class="nav row">
-        <div class="logo col-xs-6"><img src=""></div>
-        <div class="logo col-xs-6">
-          <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Quiénes Somos</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contáctenos</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="section-padding">
+        <nav class="nav row">
+          <div class="logo col-xs-12 col-sm-3">
+            <div class="logo-container">
+              <img src="images/wrmarketing-logo.jpg">
+            </div>
+          </div>
+          <div class="menu col-xs-12 col-sm-9">
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="menu-mobile-text">Menu</span>
+                  <div class="toggle-buttons">
+                    <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                  </div>
+                </button>
+              </div>
+              
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active">
+                    <a href="#">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#">Quiénes Somos</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Contáctenos</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </nav>
+            
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!--Masthead-->
