@@ -145,7 +145,8 @@
     padding: 0 0 0 40px; }
   .masthead .slick-slide .slider-content .title {
     text-align: left;
-    font-size: 5.5rem; }
+    font-size: 5.5rem;
+    line-height: 54px; }
   .masthead .contact-info {
     background-color: rgba(232, 85, 56, 0.55);
     position: absolute;
