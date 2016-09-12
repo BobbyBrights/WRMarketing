@@ -1,3 +1,4 @@
+@import "hover";
 @import "vars";
 @import "mixins";
 @import "fonts";
@@ -17,9 +18,20 @@ body {
 .block-content {
 	padding: 23px 0 20px;
 	background-color: $lightGray2;
+	border-radius: 0;
 	p {
 		font-size: rem(15);
 		margin-bottom: 0;
+	}
+}
+
+/*Buttons
+--------------------
+--------------------*/
+.btn {
+	padding: 20px 15px;
+	&.bw {
+		border: solid 1px $white;
 	}
 }
 @include media(sm){
