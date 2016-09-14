@@ -4366,13 +4366,23 @@ body {
     font-size: 1.5rem;
     margin-bottom: 0; }
 
+a {
+  outline: none; }
+
 /*Buttons
 --------------------
 --------------------*/
 .btn {
-  padding: 20px 15px; }
+  padding: 20px 15px;
+  background-color: #c43f32;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase; }
   .btn.bw {
     border: solid 1px #fff; }
+    .btn.bw:hover {
+      border: solid 1px #c43f32; }
 
 @media screen and (min-width: 768px) {
   .section-padding {

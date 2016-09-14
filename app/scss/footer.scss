@@ -6,7 +6,7 @@
 		background-color: $mainColor;
 		font-family: $graphicFont;
 		text-align: center;
-		padding: 40px 50px 10px;
+		padding: 40px 20px 10px;
 		.footer-nav-title {
 			color: $black;
 			font-weight: 700;
@@ -53,6 +53,7 @@
 	.footer {
 		.footer-content {
 			text-align: left;
+			padding: 40px 50px 10px;
 			.right-column {
 				border-left: solid 1px $black;
 			}
@@ -64,6 +65,9 @@
 			}
 			.inner-col {
 				padding-right: 50px;
+			}
+			.right-column {
+				padding-left: 50px;
 			}
 		}
 	}

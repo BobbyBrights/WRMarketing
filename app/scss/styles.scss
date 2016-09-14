@@ -24,14 +24,25 @@ body {
 		margin-bottom: 0;
 	}
 }
+a {
+	outline: none;
+}
 
 /*Buttons
 --------------------
 --------------------*/
 .btn {
 	padding: 20px 15px;
+	background-color: $mainColor;
+	color: $white; 
+	font-size: rem(14);
+	font-weight: 600;
+	text-transform: uppercase;
 	&.bw {
 		border: solid 1px $white;
+		&:hover {
+			border: solid 1px $mainColor;
+		}
 	}
 }
 @include media(sm){

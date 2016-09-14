@@ -4,7 +4,7 @@
     background-color: #c43f32;
     font-family: "Graphik", Arial, sans-serif;
     text-align: center;
-    padding: 40px 50px 10px; }
+    padding: 40px 20px 10px; }
     .footer .footer-content .footer-nav-title {
       color: #000;
       font-weight: 700;
@@ -38,7 +38,8 @@
 
 @media screen and (min-width: 992px) {
   .footer .footer-content {
-    text-align: left; }
+    text-align: left;
+    padding: 40px 50px 10px; }
     .footer .footer-content .right-column {
       border-left: solid 1px #000; }
     .footer .footer-content ul li {
@@ -46,4 +47,6 @@
     .footer .footer-content .copyright p {
       text-align: right; }
     .footer .footer-content .inner-col {
-      padding-right: 50px; } }
+      padding-right: 50px; }
+    .footer .footer-content .right-column {
+      padding-left: 50px; } }
