@@ -122,31 +122,35 @@
 		.cat-item {
 			&:hover {
 				.cat-link {
-					.no-categ {
-						.cat-info {
-							.title, .desc {
-								color: $black;
-							}
-							.arrow-icon {
-								top: 10px;
-								border: solid 3px $mainColor;
-								span {
-									color: $mainColor;
+					.cat-inner {
+						&.no-categ {
+							.cat-info {
+								height: 100%;
+								background-color: $white;
+								.title, .desc {
+									color: $black;
+								}
+								.arrow-icon {
+									top: 10px;
+									border: solid 3px $mainColor;
+									span {
+										color: $mainColor;
+									}
 								}
 							}
 						}
-					}
-					.cat-info {
-						height: 50%;
-						background: rgba(196,63,50,0.8);
-						.title, .desc {
-							color: $white;
-						}
-						.arrow-icon {
-							top: 10px;
-							border: solid 3px $white;
-							span {
+						.cat-info {
+							height: 50%;
+							background: rgba(196,63,50,0.8);
+							.title, .desc {
 								color: $white;
+							}
+							.arrow-icon {
+								top: 10px;
+								border: solid 3px $white;
+								span {
+									color: $white;
+								}
 							}
 						}
 					}
