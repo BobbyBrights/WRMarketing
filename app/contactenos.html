@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/main-nav.css">
   <link rel="stylesheet" href="css/masthead.css">
+  <link rel="stylesheet" href="css/contactenos.css">
   <link rel="stylesheet" href="css/footer.css">
   <!--endbuild-->
 </head>
@@ -67,26 +68,51 @@
       </div>
     </div>
 
-    <!--Masthead-->
-    <div class="masthead">
-      <div class="row">
-
-
-      <!--Aca va el masthead de la página-->
-
-
-      </div>
-    </div>
-
     <!--Main Content-->
-    <div class="main-content">
+    <div class="main-content contactenos-content ">
       
-      <!--Acá va el contenido de la página-->
+      <div class="row">
+        <div class="col-xs-12 form-main-col">
+          <div class="contact-bg photo">
+            <div class="formulario">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-5">
+                  <form action="form/contacto.php" method="post">
+                    <h2 class="title">CONTÁCTENOS</h2>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electronico:</label>
+                        <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                    </div>
+
+                    <div class="form-group last-row">
+                        <label for="telefono">Teléfono:</label>
+                        <input id="telefono" type="text" name="telefono" placeholder="Teléfono" required="" />
+                    </div>
+
+                    <div class="form-group mensaje">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                    </div>
+                    
+                    <button id="submit" type="submit" name="submit" value="Enviar" class="btn bw hvr-sweep-to-right">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
     <!--footer-->
-    <div class="footer">
+    <div class="footer no-margin">
       <div class="row footer-content">
         <div class="col-xs-12 col-md-7 left-column">
           <div class="row">
@@ -123,7 +149,7 @@
               <h2 class="footer-nav-title">Contacto Directo</h2>
               <p>Teléfonos: <a href="tel:88585800">(506) 8858-5800</a> ó <a href="tel:71541910">(506) 7154-1910</a></p>
               <p class="correos">Correos: <br><a href="mailto:ventas@wrmaeketing.net">ventas@wrmarketing.net</a> <br> <a href="mailto:rchavesm@wrmarketing.net">rchavesm@wrmarketing.net</a></p>
-              <div class="btn-container"><a href="contactenos.html class="btn bw hvr-sweep-to-right">Sección de Contacto <span class="icon-arrow-right"></span></a></div>
+              <div class="btn-container"><a href="contactenos.html" class="btn bw hvr-sweep-to-right">Sección de Contacto <span class="icon-arrow-right"></span></a></div>
             </div>
           </div>
         </div>

@@ -1,0 +1,94 @@
+@import "vars";
+@import "mixins";
+
+.contactenos-content {
+	position: relative;
+	.form-main-col {
+		padding: 0;
+	}
+	.contact-bg {
+		position: relative;
+		&.photo {
+			background-image: url('../images/contactos-bg.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+	.formulario {
+		//position: absolute;
+		//top: 0;
+		//left: 0;
+		padding: 15px 30px;
+		width: 100%;
+
+		.title {
+			color: $white;
+			font-weight: 800;
+			font-size: rem(25);
+			padding: 35px 15px 20px;
+			border-bottom: solid 1px $white;
+		}
+
+		form {
+			background-color:rgba(196,63,50,0.75);
+			padding-bottom: 40px;
+			.form-group {
+				padding: 10px 15px;
+
+				label, input, textarea {
+					width: 100%;
+				}
+
+				label {
+					font-weight: 300;
+					color: $white;
+					font-size: rem(15);
+				}
+
+				input {
+					background-color: transparent;
+					min-height: 55px;
+					border: solid 1px #db9d97;
+					padding: 20px;
+				}
+
+				textarea {
+					min-height: 150px;
+					background-color: transparent;
+					border: solid 1px #db9d97;
+					padding: 20px;
+				}
+
+			}
+			.btn {
+				margin-left: 15px;
+			}
+		}
+	}
+}
+@include media(sm){
+	.contactenos-content {
+		.formulario {
+			padding: 70px 30px;
+			.title {
+				color: $white;
+				font-weight: 800;
+				font-size: rem(35);
+				padding: 35px 45px 20px;
+			}
+
+			form {
+				.form-group {
+					padding: 10px 45px;
+
+					label {
+						font-size: rem(22);
+					}
+				}
+				.btn {
+					margin-left: 45px;
+				}
+			}
+		}
+	}
+}

@@ -1,5 +1,7 @@
 .footer {
   margin-top: 30px; }
+  .footer.no-margin {
+    margin: 0; }
   .footer .footer-content {
     background-color: #c43f32;
     font-family: "Graphik", Arial, sans-serif;

@@ -20,6 +20,26 @@
         background-image: url("../images/masthead2-mobile.jpg"); }
       .masthead .slick-slide .masthead-image-container .masthead-three {
         background-image: url("../images/masthead3-mobile.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-tazas-one {
+        background-image: url("../images/tazas/tazas-masthead1-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-tazas-two {
+        background-image: url("../images/tazas/tazas-masthead2-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-vinil-one {
+        background-image: url("../images/vinil/vinil-masthead1-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-vinil-two {
+        background-image: url("../images/vinil/vinil-masthead2-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-papel-one {
+        background-image: url("../images/papel/papel-masthead1-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-papel-two {
+        background-image: url("../images/papel/papel-masthead2-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-promocionales-one {
+        background-image: url("../images/promocionales/promocionales-masthead1-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-promocionales-two {
+        background-image: url("../images/promocionales/promocionales-masthead2-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-maquinas-one {
+        background-image: url("../images/maquinas/maquinas-masthead1-sm.jpg"); }
+      .masthead .slick-slide .masthead-image-container .masthead-maquinas-two {
+        background-image: url("../images/maquinas/maquinas-masthead2-sm.jpg"); }
     .masthead .slick-slide .slider-content {
       height: 100%;
       left: 0;
@@ -38,7 +58,16 @@
         font-size: 3.5rem;
         font-weight: 700;
         line-height: 38px;
-        text-align: center; }
+        text-align: center;
+        word-wrap: break-word; }
+  .masthead .masthead-slider.category-masthead .slider-content {
+    align-items: end; }
+    .masthead .masthead-slider.category-masthead .slider-content .content-inner {
+      margin-bottom: 40px; }
+    .masthead .masthead-slider.category-masthead .slider-content .title {
+      background-color: #c43f32;
+      padding: 10px;
+      text-transform: uppercase; }
   .masthead .masthead-slider .slick-arrow {
     background-image: url("../images/arrows.png");
     background-color: transparent;
@@ -128,6 +157,26 @@
       background-image: url("../images/masthead2.jpg"); }
     .masthead .slick-slide .masthead-image-container .masthead-three {
       background-image: url("../images/masthead3.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-tazas-one {
+      background-image: url("../images/tazas/tazas-masthead1.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-tazas-two {
+      background-image: url("../images/tazas/tazas-masthead2.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-vinil-one {
+      background-image: url("../images/vinil/vinil-masthead1.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-vinil-two {
+      background-image: url("../images/vinil/vinil-masthead2.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-papel-one {
+      background-image: url("../images/papel/papel-masthead1.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-papel-two {
+      background-image: url("../images/papel/papel-masthead2.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-promocionales-one {
+      background-image: url("../images/promocionales/promocionales-masthead1.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-promocionales-two {
+      background-image: url("../images/promocionales/promocionales-masthead2.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-maquinas-one {
+      background-image: url("../images/maquinas/maquinas-masthead1.jpg"); }
+    .masthead .slick-slide .masthead-image-container .masthead-maquinas-two {
+      background-image: url("../images/maquinas/maquinas-masthead2.jpg"); }
   .masthead .masthead-slider .slick-arrow {
     top: 175px; }
   .masthead .contact-info .info-row.correo-row {

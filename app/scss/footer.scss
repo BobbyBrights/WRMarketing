@@ -2,6 +2,9 @@
 @import "mixins";
 .footer {
 	margin-top: 30px;
+	&.no-margin {
+		margin: 0;
+	}
 	.footer-content {
 		background-color: $mainColor;
 		font-family: $graphicFont;

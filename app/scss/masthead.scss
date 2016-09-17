@@ -18,6 +18,8 @@
 			    top: 0;
 			    width: 100%;
 			}
+
+			//Indez
 			.masthead-one {
 				background-image: url('../images/masthead1-mobile.jpg');
 			}
@@ -27,6 +29,47 @@
 			.masthead-three {
 				background-image: url('../images/masthead3-mobile.jpg');
 			}
+
+			//Tazas
+			.masthead-tazas-one {
+				background-image: url('../images/tazas/tazas-masthead1-sm.jpg');
+			}
+			.masthead-tazas-two {
+				background-image: url('../images/tazas/tazas-masthead2-sm.jpg');
+			}
+
+			//Vinil
+			.masthead-vinil-one {
+				background-image: url('../images/vinil/vinil-masthead1-sm.jpg');
+			}
+			.masthead-vinil-two {
+				background-image: url('../images/vinil/vinil-masthead2-sm.jpg');
+			}
+
+			//Papel
+			.masthead-papel-one {
+				background-image: url('../images/papel/papel-masthead1-sm.jpg');
+			}
+			.masthead-papel-two {
+				background-image: url('../images/papel/papel-masthead2-sm.jpg');
+			}
+
+			//Promocionales
+			.masthead-promocionales-one {
+				background-image: url('../images/promocionales/promocionales-masthead1-sm.jpg');
+			}
+			.masthead-promocionales-two {
+				background-image: url('../images/promocionales/promocionales-masthead2-sm.jpg');
+			}
+
+			//Promocionales
+			.masthead-maquinas-one {
+				background-image: url('../images/maquinas/maquinas-masthead1-sm.jpg');
+			}
+			.masthead-maquinas-two {
+				background-image: url('../images/maquinas/maquinas-masthead2-sm.jpg');
+			}
+
 		}
 		.slider-content {
 		    height: 100%;
@@ -48,10 +91,24 @@
 			    font-weight: 700;
 			    line-height: 38px;
 			    text-align: center;
+			    word-wrap: break-word;
 		    }
 		}
 	}
 	.masthead-slider {
+		&.category-masthead {
+			.slider-content {
+				align-items: end;
+				.content-inner {
+					margin-bottom: 40px;
+				}
+				.title { 
+					background-color: $mainColor;
+					padding: 10px;
+					text-transform: uppercase;
+				}
+			}
+		}
 		.slick-arrow {
 			background-image: url('../images/arrows.png');
 			background-color: transparent;
@@ -165,6 +222,46 @@
 				}
 				.masthead-three {
 					background-image: url('../images/masthead3.jpg');
+				}
+
+				//Tazas
+				.masthead-tazas-one {
+					background-image: url('../images/tazas/tazas-masthead1.jpg');
+				}
+				.masthead-tazas-two {
+					background-image: url('../images/tazas/tazas-masthead2.jpg');
+				}
+
+				//Vinil
+				.masthead-vinil-one {
+					background-image: url('../images/vinil/vinil-masthead1.jpg');
+				}
+				.masthead-vinil-two {
+					background-image: url('../images/vinil/vinil-masthead2.jpg');
+				}
+
+				//Papel
+				.masthead-papel-one {
+					background-image: url('../images/papel/papel-masthead1.jpg');
+				}
+				.masthead-papel-two {
+					background-image: url('../images/papel/papel-masthead2.jpg');
+				}
+
+				//Promocionales
+				.masthead-promocionales-one {
+					background-image: url('../images/promocionales/promocionales-masthead1.jpg');
+				}
+				.masthead-promocionales-two {
+					background-image: url('../images/promocionales/promocionales-masthead2.jpg');
+				}
+
+				//Promocionales
+				.masthead-maquinas-one {
+					background-image: url('../images/maquinas/maquinas-masthead1.jpg');
+				}
+				.masthead-maquinas-two {
+					background-image: url('../images/maquinas/maquinas-masthead2.jpg');
 				}
 			}
 		}
