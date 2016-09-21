@@ -147,6 +147,38 @@
     .masthead .contact-info .info-row .info-title {
       color: #d0d0d0;
       font-weight: 200; }
+  .masthead .masthead-static {
+    position: relative; }
+    .masthead .masthead-static .photo-static-container {
+      position: relative;
+      min-height: 300px; }
+      .masthead .masthead-static .photo-static-container .photo-static {
+        background-image: url("../images/quienes-somos-masthead.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%; }
+    .masthead .masthead-static .content-static {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .masthead .masthead-static .content-static .static-title {
+        background-color: rgba(196, 63, 50, 0.7);
+        padding: 10px; }
+        .masthead .masthead-static .content-static .static-title h2 {
+          margin: 0;
+          font-weight: 800;
+          color: #fff; }
 
 @media screen and (min-width: 768px) {
   .masthead .slick-slide .masthead-image-container {
@@ -187,7 +219,17 @@
     text-align: center; }
     .masthead .contact-info .info-row.social-row ul li {
       display: inline-block;
-      margin: 0 30px; } }
+      margin: 0 30px; }
+  .masthead .masthead-static .photo-static-container {
+    min-height: 435px; }
+    .masthead .masthead-static .photo-static-container .photo-static {
+      background-position: right; }
+  .masthead .masthead-static .content-static {
+    justify-content: left; }
+    .masthead .masthead-static .content-static .static-title {
+      margin-left: 30px; }
+      .masthead .masthead-static .content-static .static-title h2 {
+        font-size: 4rem; } }
 
 @media screen and (min-width: 992px) {
   .masthead .slick-slide .slider-content .content-inner {
